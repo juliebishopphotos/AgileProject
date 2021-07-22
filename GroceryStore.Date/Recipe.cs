@@ -17,7 +17,7 @@ namespace GroceryStore.Date
     }
     public class Recipe
     {
-        [Required]
+        [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
