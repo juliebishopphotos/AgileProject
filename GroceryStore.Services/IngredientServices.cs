@@ -11,7 +11,7 @@ namespace GroceryStore.Services
 {
     public class IngredientServices
     {
-        public bool IngredientCreate(IngredientCreate model)
+        public bool CreateIngredient(IngredientCreate model)
         {
             var entity =
                 new Ingredient()
